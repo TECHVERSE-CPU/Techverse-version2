@@ -1,0 +1,14 @@
+HTTrack3.49-2 launched on Mon, 09 May 2022 08:18:36 at https://template4.dorik.io/# +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://template4.dorik.io/# -O "/Users/keerthanams/websites/dorika" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:19:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/images/logo_uy2e7z7i.png
+08:19:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://assets.dorik.io/shared/jquery-3.5.1.min.js
+08:19:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://assets.dorik.io/shared/aos.js
+
+HTTrack Website Copier/3.49-2 mirror complete in 38 seconds : 32 links scanned, 37 files written (1786104 bytes overall) [1336604 bytes received at 35173 bytes/sec], 373265 bytes transferred using HTTP compression in 9 files, ratio 27%, 2.6 requests per connection
+(No errors, 3 warnings, 0 messages)
